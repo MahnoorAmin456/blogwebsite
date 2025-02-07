@@ -1,15 +1,15 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { sanityTypes } from '@/@types';
-import { Label } from '@/components/ui/label';
-import { client } from '@/sanity/lib/client';
 import { Avatar, AvatarFallback } from '@radix-ui/react-avatar';
 import { CalendarIcon } from 'lucide-react';
 import Image from 'next/image';
-import { urlFor } from '@/sanity/lib/image';
 import { PortableText } from 'next-sanity';
 import { useForm } from 'react-hook-form';
+import { client } from '../../../sanity/lib/client';
+import { sanityTypes } from '../../../@types';
+import { Label } from '../../../components/ui/label';
+import { urlFor } from '../../../sanity/lib/image';
 
 async function getPost(slug: string): Promise<any> {
   const query = `

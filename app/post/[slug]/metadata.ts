@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { client } from '@/sanity/lib/client';
+import { client } from '../../../sanity/lib/client';
 
 async function getPost(slug: string): Promise<any> {
   const query = `

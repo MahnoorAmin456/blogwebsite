@@ -1,9 +1,10 @@
 'use client'
 import React from 'react'
 import Link from 'next/link'
-import { Label } from '../ui/label'
 import { ThemeToggle } from '../ui/theme-toggle'
 import useInvalidPaths from '../../lib/use-invalid-paths'
+import { Label } from '@radix-ui/react-label'
+
  
 export default function Header  ()  {
     const invalidPath: boolean = useInvalidPaths();
