@@ -1,5 +1,4 @@
 // Footer.tsx (you can place it in a components folder)
-
 import React from 'react';
 
 export default function Footer() {

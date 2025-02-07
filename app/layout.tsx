@@ -1,9 +1,10 @@
 
 import {  Raleway} from "next/font/google";
 import "./globals.css";
-import Header from "@/components/shared/header";
-import { ThemeProvider } from "@/components/theme-provider";
-import Footer from "@/components/shared/footer";
+import Header from "../components/shared/header";
+import { ThemeProvider } from "../components/theme-provider";
+import Footer from "../components/shared/footer";
+ 
 const raleway = Raleway({ subsets: ["latin"] });
 
 export default function RootLayout({

@@ -1,5 +1,6 @@
 'use client'
 import { usePathname } from "next/navigation";
+
 export default function useInvalidPaths() {
     const pathName = usePathname();
     const invalidPaths = ['studio', 'admin',];

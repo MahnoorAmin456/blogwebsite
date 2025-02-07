@@ -4,13 +4,10 @@ import * as React from "react"
 import { Moon, MoonIcon, Sun } from "lucide-react"
 import { useTheme } from "next-themes"
 
-import { Button } from "@/components/ui/button"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+ { Button } "@/components/ui/button"
+
+import { Button } from "./button"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu"
 
 export function ThemeToggle() {
   const { setTheme } = useTheme()

@@ -1,11 +1,14 @@
 import React from 'react'
-import { client } from '@/sanity/lib/client';
+ { client }  '@/sanity/lib/client';
 import Image from 'next/image';
-import { sanityTypes } from '@/@types';
+import { sanityTypes } from '../@types';
 import Link from 'next/link';
-import { Card } from '@/components/ui/card';
-import { urlFor } from '@/sanity/lib/image';
+ { Card }  '@/components/ui/card';
+ { urlFor }  '@/sanity/lib/image';
 import { Calendar, CalendarIcon } from 'lucide-react';
+import { Card } from '../components/ui/card';
+import { urlFor } from '../sanity/lib/image';
+import { client } from '../sanity/lib/client';
 
 
 
